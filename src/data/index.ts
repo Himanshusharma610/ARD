@@ -32,73 +32,7 @@ export const missions = [
 ];
 
 export const events = [
-  {
-    id: 1,
-    title: "RoboWars 1.0 – Battle of the Machines",
-    date: "April 28, 2026",
-    status: "Past Event",
-    description:
-      "The ultimate robotics combat event where teams engineer battle-ready bots to compete in an arena of destruction. Build, strategize, and conquer! Categories include Sumo, Line Follower, and Freestyle Combat bots.",
-    image:
-      "https://res.cloudinary.com/dy4aegde9/image/upload/c_limit,w_3840/f_auto/q_auto/v1/hvvwz8o8iinkhogfpzqk",
-    tags: ["Robotics", "Competition"],
-  },
-  {
-    id: 2,
-    title: "Drone Racing Championship 2026",
-    date: "April 2, 2026",
-    status: "Past Event",
-    description:
-      "An adrenaline-fueled FPV drone racing championship. Teams build and pilot custom racing drones through challenging obstacle courses. Test your flying skills and engineering prowess.",
-    image:
-      "https://res.cloudinary.com/dy4aegde9/image/upload/c_limit,w_3840/f_auto/q_auto/v1/dropkrpyr9nigbqljuzs",
-    tags: ["Drone", "Racing"],
-  },
-  {
-    id: 3,
-    title: "Arduino Bootcamp – Build Your First Robot",
-    date: "March 19, 2026",
-    status: "Past Event",
-    description:
-      "A hands-on workshop for beginners to build their first Arduino-based robot. Learn circuit design, motor control, and basic programming. No prior experience needed! Take home your own robot.",
-    image:
-      "https://res.cloudinary.com/dy4aegde9/image/upload/c_limit,w_3840/f_auto/q_auto/v1/dsowiq6r75djpy2rjhvm",
-    tags: ["Workshop", "Arduino"],
-  },
-  {
-    id: 4,
-    title: "IoT & Smart Systems Workshop",
-    date: "March 13, 2026",
-    status: "Past Event",
-    description:
-      "Explore the Internet of Things! Build smart home prototypes, learn sensor integration with ESP32/NodeMCU, and deploy real-time monitoring dashboards. From concept to connected device.",
-    image:
-      "https://res.cloudinary.com/dy4aegde9/image/upload/c_limit,w_3840/f_auto/q_auto/v1/nssfsnznasvrkjbbh9dd",
-    tags: ["IoT", "Workshop"],
-  },
-  {
-    id: 5,
-    title: "Autonomous Drone Sprint – AI in the Sky",
-    date: "February 24, 2026",
-    status: "Past Event",
-    description:
-      "A 24-hour hackathon focused on autonomous drone navigation. Teams use computer vision and AI to create drones that can navigate obstacle courses, detect objects, and complete missions autonomously.",
-    image:
-      "https://res.cloudinary.com/dy4aegde9/image/upload/c_limit,w_3840/f_auto/q_auto/v1/coswx5px6tk1jmp98zlo",
-    tags: ["Drone", "AI", "Hackathon"],
-  },
-  {
-    id: 6,
-    title: "SIH 2025 – Hardware & Robotics Track",
-    date: "September 10, 2025",
-    status: "Past Event",
-    description:
-      "Amity Robotics & Drone Club led the Smart India Hackathon 2025 internal round for the hardware and robotics category. Top teams were selected to represent Amity University MP at the national finale.",
-    image:
-      "https://res.cloudinary.com/dy4aegde9/image/upload/c_limit,w_3840/f_auto/q_auto/v1/suav4qnyvlcmo1pzydmx",
-    tags: ["Hackathon", "SIH", "Robotics"],
-  },
-];
+ 
 
 export const teamMembers = [
   {
