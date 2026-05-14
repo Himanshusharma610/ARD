@@ -101,13 +101,7 @@ export default function Footer() {
           <p className="text-gray-600 text-xs">
             © {currentYear} Amity Robotics & Drone Club, Amity University MP. All rights reserved.
           </p>
-          <div className="flex items-center gap-1 text-gray-600 text-xs">
-            <span>Built with</span>
-            <span className="text-yellow-500">⚡</span>
-            <span>by ARD Dev Team</span>
-            <span className="mx-2">·</span>
-            <span className="text-blue-400 font-mono text-xs">&lt;React /&gt;</span>
-          </div>
+          
         </div>
       </div>
     </footer>
