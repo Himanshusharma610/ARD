@@ -83,12 +83,12 @@ export default function Footer() {
               <li className="flex items-start gap-2 text-gray-500 text-sm">
                 <span>🌐</span>
                 <a
-                  href="https://www.amitycodingclub.social"
+                  href="https://https://www.amityroboticsanddroneclub.xyz/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-yellow-400 transition-colors"
                 >
-                  amitycodingclub.social
+                  https://www.amityroboticsanddroneclub.xyz/
                 </a>
               </li>
             </ul>
@@ -100,13 +100,7 @@ export default function Footer() {
           <p className="text-gray-600 text-xs">
             © {currentYear} Amity Robotics & Drone Club, Amity University MP. All rights reserved.
           </p>
-          <div className="flex items-center gap-1 text-gray-600 text-xs">
-            <span>Built with</span>
-            <span className="text-yellow-500">⚡</span>
-            <span>by ARD Dev Team</span>
-            <span className="mx-2">·</span>
-            <span className="text-blue-400 font-mono text-xs">&lt;React /&gt;</span>
-          </div>
+          
         </div>
       </div>
     </footer>
