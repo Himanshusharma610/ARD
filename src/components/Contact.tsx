@@ -53,7 +53,7 @@ export default function Contact() {
                 {
                   icon: "🌐",
                   label: "Website",
-                  value: "amitycodingclub.social",
+                  value: "https://www.amityroboticsanddroneclub.xyz/",
                 },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-4">
