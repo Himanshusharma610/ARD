@@ -1,5 +1,9 @@
 import { useState } from "react";
-import { events } from "../data";
+// Import hata diya gaya hai taaki external data na aaye
+// import { events } from "../data";
+
+// Events ko manually empty array set kar diya hai
+const events: any[] = []; 
 
 const allTags = ["All", "Robotics", "Drone", "Hackathon", "Workshop", "IoT", "Competition"];
 
@@ -102,7 +106,7 @@ export default function Events() {
                   {expanded === event.id ? "Show less ↑" : "Read more ↓"}
                 </button>
                 <div className="flex flex-wrap gap-1.5 mt-4">
-                  {event.tags.map((tag) => (
+                  {event.tags.map((tag: string) => (
                     <span
                       key={tag}
                       className="px-2.5 py-0.5 rounded-full bg-yellow-500/10 border border-yellow-500/20 text-yellow-300 text-xs font-medium"
@@ -116,6 +120,7 @@ export default function Events() {
           ))}
         </div>
 
+        {/* Empty State UI */}
         {filtered.length === 0 && (
           <div className="text-center py-20 text-gray-500">
             <div className="text-5xl mb-4"></div>
