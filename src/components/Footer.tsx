@@ -83,12 +83,12 @@ export default function Footer() {
               <li className="flex items-start gap-2 text-gray-500 text-sm">
                 <span>🌐</span>
                 <a
-                  href="https://https://www.amityroboticsanddroneclub.xyz/"
+                  href="amityroboticsanddroneclub.xyz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-yellow-400 transition-colors"
                 >
-                  https://www.amityroboticsanddroneclub.xyz/
+                  amityroboticsanddroneclub.xyz
                 </a>
               </li>
             </ul>
